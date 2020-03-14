@@ -11,9 +11,7 @@ import matplotlib.pyplot as plt
 
 time = []
 
-
-# baraye random entekhab krdne jameye Ehtemali chn permutation hasho random migirim
-# hmun 10 taye avalesho negah darim be javab reCdim
+# for generating a random population we keep the 10 first permuted data's
 
 def getTenFirst(l):
     gTF = l[0:10]
@@ -271,7 +269,7 @@ print("analytical solution")
 analytical(n)
 # PMX(l1,l2)
 height = [time[0] * 1000, time[1] * 1000, time[2] * 1000, time[3] * 1000]
-bars = ('A', 'B', 'C', 'D', 'E')
+bars = ('A', 'B', 'C', 'D')
 y_pos = np.arange(len(bars))
 plt.bar(y_pos + 1, height, color=(0.2, 0.4, 0.6, 0.6))
 

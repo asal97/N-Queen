@@ -15,6 +15,7 @@ Computational Intelligence( first project )(N-Queen optimization using evolution
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 
+![N-Qeen](https://github.com/asal97/N-Queen/blob/master/NQueen.PNG)
 
 
 <!-- TABLE OF CONTENTS -->
